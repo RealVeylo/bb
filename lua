@@ -1,4 +1,3 @@
--- Prevent multiple executions
 if getgenv().Sense_Hub_BladeBall then warn("Sense Hub Blade Ball is already executed") return end
 getgenv().Sense_Hub_BladeBall = true
 
